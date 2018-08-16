@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -16,7 +15,10 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+let MainHeader = require('./components/MainHeader.vue');
+let MainFooter = require('./components/MainFooter.vue');
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    components: {MainHeader, MainFooter},
 });
