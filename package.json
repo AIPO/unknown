@@ -19,6 +19,8 @@
         "vue": "^2.5.17"
     },
     "dependencies": {
+        "buefy": "^0.6.6",
+        "font-awesome": "^4.7.0",
         "vue-router": "^3.0.1"
     }
 }

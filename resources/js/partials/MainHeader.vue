@@ -6,7 +6,7 @@
                     LOGO
                 </a>
                 <div class="navbar-menu is-active">
-                    <route-link to="/" class="navbar-item">Home</route-link>
+                    <router-link to="/" class="navbar-item">Home</router-link>
                     <router-link to="/about" class="navbar-item">About</router-link>
                 </div>
 
@@ -22,10 +22,10 @@
 </template>
 
 <script>
-    import Hero from '../partials/Hero.vue'
+    import Hero from './Hero.vue'
 
     export default {
-        name: "MainHeader",
+        name: "main-header",
         components:
             {
                 'hero': Hero
